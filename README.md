@@ -28,6 +28,6 @@ Rust uses `rustup`, a command line tool for managing Rust versions and associate
 
 - `cargo build` builds your entire project and generates an executable in `target/debug`, if you pass the `--release` flag the executable will be located in `target/release` instead and it will be compiled with optimizations.
 
-- `cargo run` compiles a your project and runs the resulting executable in a single step.
+- `cargo run` compiles your project and runs the resulting executable in a single step.
 
-- `cargo check` makes sure your project but doesn't produce an executable.
+- `cargo check` makes sure your project compiles witout producing an executable.
