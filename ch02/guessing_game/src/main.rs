@@ -32,6 +32,9 @@ fn main() {
         // The match expression is composed by branches, each branch represents
         // a pattern that will only execute if the result fits one of the
         // patterns
+        // Changes the variable type from `String` to `u32` and makes it
+        // immutable, this is called `shadowing`. This technique is usually
+        // used when converting values
         let guess: u32 = match guess.trim().parse() {
             // Extracts the value from `Result` if the parsing was successful
             Ok(num) => num,
