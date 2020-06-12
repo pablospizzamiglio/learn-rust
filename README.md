@@ -30,4 +30,4 @@ Rust uses `rustup`, a command line tool for managing Rust versions and associate
 
 - `cargo run` compiles your project and runs the resulting executable in a single step.
 
-- `cargo check` makes sure your project compiles witout producing an executable.
+- `cargo check` makes sure your project compiles without producing an executable.
