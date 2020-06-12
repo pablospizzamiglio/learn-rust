@@ -1,6 +1,6 @@
 # The Rust Programming Language
 
-Here I'll be documenting my progress following _the book_ (2018 edition).
+Here I'll be documenting my journey through the _the book_.
 
 ## Installation
 
